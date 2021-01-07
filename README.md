@@ -1,4 +1,5 @@
 # VendingMachine
+
 A simple application to process vending machine transactions
 
 A very rudimentary project I completed for Tech Elevator. 
@@ -9,4 +10,4 @@ The CLI allows a user to add money, select items, and receive "change" from the 
 
 The inventory reflects the total changes made while running. Everytime it is restarted, the inventory is reset to reflect the text file. 
 
-Every transaction is recorded in an audit log using a PrintWriter.
+Every transaction is recorded in an audit log using a PrintWriter and File I/O.
